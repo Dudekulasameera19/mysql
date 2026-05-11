@@ -18,3 +18,19 @@ VALUES
     (8, 'Book8', 'Author8', 480.00, 'Available'),
     (9, 'Book9', 'Author9', 520.00, 'Unavailable'),
     (10, 'Book10', 'Author10', 650.00, 'Available');
+
+select *
+from books
+where author_name = 'author1';
+
+select *
+from books
+where availability = 'available';
+
+select *
+from books
+order by book_name ASC;
+
+select *
+from books
+order by price > 500;

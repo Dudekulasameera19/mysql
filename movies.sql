@@ -19,3 +19,19 @@ VALUES
     (8, 'Dangal', 'Hindi', 8.4, 35, 2016),
     (9, 'KGF Chapter', 'Kannada', 8.5, 20, 2022),
     (10, 'Salaar', 'Telugu', 8.1, 55, 2023);
+
+select *
+from movies
+where rating >8;
+
+select *
+from movies
+where language = 'telugu';
+
+select *
+from movies
+where available_seats<50;
+
+select *
+from movies
+order by release_year ASC;

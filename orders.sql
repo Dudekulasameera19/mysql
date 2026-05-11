@@ -21,4 +21,17 @@ VALUES
     (11, 'Teju', 'Printer', 6500.00, 'Pending'),
     (12, 'Divi', 'Camera', 52000.00, 'Delivered');
 
-    
+select *
+from orders
+where amount>5000;
+
+select *
+from orders
+where customer_name = 'sandy';
+
+select *
+from orders
+where order_Status = 'Delivered';
+
+select * from orders
+order by amount asc;
